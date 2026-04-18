@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+@font-face {
+  font-family: 'Blackout-Midnight';
+  src: url('../fonts/Blackout-Midnight.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Serifa-Bold';
+  src: url('../fonts/Serifa-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+h1, h2 {
+  font-family: 'Blackout-Midnight', sans-serif;
+}
+
+p, div, footer{
+  font-family: 'Serifa-Bold', serif;
+}
+li{
+  font-family: 'Serifa-Bold', serif;
+}
+body {
+  font-size: 14px;
+}
+.encabezado {
+  width: 100%;
+  height: 133px;
+  background: #e14444;
+  position: absolute;
+}
+.interior {
+  width: 100%;
+  height: 74px;
+  position: absolute;
+  top: 29px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.VHS {
+  width: 150px;
+  height: 75px;
+  background-image: url(../images/VHS.png);
+  background-size: cover;
+  background-position-y: 210px;
+  position: absolute;
+  left: 50px;
+}
+.menu {
+  width: 847px;
+  height: 74px;
+  position: absolute;
+  top: 0px;
+  left: 499px;
+  margin-top: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.btn {
+  width: 121px;
+  height: 74px;
+  background: #ffeabb;
+  margin-left: 15px;
+  border-radius: 35%;
+}
+.img{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+.home{
+  background-image: url(../images/home.png);
+  transition: 0.5s;
+}
+.home:hover{
+  transform: scale(0.8);
+}
+.ilustracion{
+  background-image: url(../images/dibujar.png);
+  transition: 0.5s;
+}
+.ilustracion:hover{
+  transform: scale(0.8);
+}
+.digital{
+  background-image: url(../images/digital.png);
+  transition: 0.5s;
+}
+.digital:hover{
+  transform: scale(0.8);
+}
+.contactar{
+  background-image: url(../images/contactar.png);
+  background-position-x: 20px;
+  transition: 0.5s;
+}
+.contactar:hover{
+  transform: scale(0.8);
+}
+body {
+  font-size: 14px;
+}
+.cuerpo {
+  top: 133px;
+  width: 100%;
+  height: 3590px;
+  background-image: url(../images/fondo.png);
+  background-repeat: repeat;
+  background-size: 100%;
+  background-position-x: 0px;
+  background-position-y: 1460px;
+  background-color: #ffeabb;
+}
+.redesme{
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contac{
+  position: relative;
+  left: 420px;
+  top: 200px;
+}
+.correo {
+  width: 210px;
+  height: 210px;
+  position: relative;
+  background-image: url(../images/correo.png);
+  background-size: cover;
+  transition: 0.5s;
+}
+.whatsapp:hover{
+  transform: scale(0.8);
+}
+.nameR {
+  width: 310px;
+  height: 90px;
+  color: #e14444;
+  font-size: 35px;
+  position: relative;
+  left: -45px;
+}
+.contac2{
+  position: relative;
+  left: 540px;
+  top: 200px;
+}
+.whatsapp {
+  width: 210px;
+  height: 210px;
+  position: relative;
+  background-image: url(../images/whatsapp.png);
+  background-size: contain;
+  transition: 0.5s;
+}
+.correo:hover{
+  transform: scale(0.8);
+}
+.nameR2 {
+  width: 310px;
+  height: 90px;
+  position: relative;
+  color: #e14444;
+  font-size: 35px;
+  left: -50px;
+}
+.ttl{
+  width: 610px;
+  height: 100px;
+  position: relative;
+  left: 460px;
+  top: 300px;
+  color: #e14444;
+  font-size: 50px;
+}
+.formulario{
+  margin-top: 300px;
+  margin-left: 430px;
+  position: absolute;
+}
+.pie_pg {
+  width: 100%;
+  height: 124px;
+  background: #e14444;
+  top: 4100px;
+  text-align: center;
+  color: #ffeabb;
+  font-size: 40px;
+  padding-top: 30px;
+}
